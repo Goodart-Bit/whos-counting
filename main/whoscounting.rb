@@ -1,3 +1,5 @@
+#Who's Counting, programa de simulación
+#Por Juan Mateo De la Hoz y Juan Pablo Avilan
 class Reader
     def read_strategy file_name
         strategy_table = File.readlines("files/#{file_name}.txt").map(&:chomp)
